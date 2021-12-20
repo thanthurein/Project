@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #000;
+    width: 100%;
+    height: 45px;
+    padding: 12px 120px;
+}
+.brand img{
+    width: 50px;
+}
+.menu li{
+    display: inline;
+    margin: 15px;
+    font-size: 18px;
+
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.logo-brand , menu {
+    float: left;
+
+}
+
+.menu{
+    padding-left: 600px;
+    padding-top: 13px;
+}
+.jpg-main , img {
+    width : 100%;
+}

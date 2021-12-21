@@ -5,7 +5,6 @@
 
 .container {
     background-color: #000;
-    width: 100%;
     height: 45px;
     padding: 12px 120px;
 }
@@ -31,9 +30,53 @@
 }
 
 .menu{
-    padding-left: 600px;
+    padding-left: 500px;
     padding-top: 13px;
 }
-.jpg-main , img {
-    width : 100%;
+
+
+/*  Hero Banner */
+.banner-container {
+    background-color : #323A9D;
+    height: auto;
+    padding: 20px 50px 50px 50px;
+    overflow: hidden;
+}
+
+.banner-text, .banner-image{
+    float: left;
+}
+
+.banner-image img{
+    width: 220px;
+    height: 210px ;
+    border-radius:100%;
+    
+}
+.banner-image , image {
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+
+.banner-text {
+        padding-left: 100px;
+        padding-top : 60px;
+
+
+}
+.banner__h3 {
+    color :#fff;
+    font-size: 2rem;
+}
+   
+.banner-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    color: #323A9D;
+    border: 0;
+    margin-top: 40px;
+    margin-left: 12px;
+
 }
